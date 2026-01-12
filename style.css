@@ -7,25 +7,33 @@
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    align-items: center;
 }
 
 nav {
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 0;
     background-color: #333;
+    align-items: center;
+}
+
+nav {
+    background: #111;
 }
 
 .nav-con {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    height: 70px;
 }
 
-.logo a {
+.logo {
     font-size: 2rem;
-    color: aliceblue;
+    color: rgb(220, 0, 245);
     text-decoration: none;
 }
+
 
 .menu {
     display: flex;
